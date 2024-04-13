@@ -1,0 +1,48 @@
+/*Styles whole background and text*/
+html{
+    background-color:lightblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/*Styling targets the main div*/
+#main{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 40px auto;
+    gap: 20px;
+}
+#main div{
+    background-color:blanchedalmond;
+    border: 2px black solid;
+    padding: 25px;
+    width: 20vw;    
+}
+/*Styles the link in the nav*/
+a{
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3em;
+}
+/*Styles the nav bar*/
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:blanchedalmond;
+    border: 2px black solid;
+    margin: 0px;
+}
+/*Styling targets the button in the nav*/
+button{
+    width: auto;
+    height: 50%;
+    background-color: blueviolet;
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    border-radius: 5px;
+}
+body p:nth-child(2){
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
